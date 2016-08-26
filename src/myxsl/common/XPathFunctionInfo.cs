@@ -17,12 +17,12 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 using System.Xml;
 
-namespace myxsl.common {
-   
-   public sealed class XPathFunctionInfo {
+namespace myxsl.common
+{
+
+    public sealed class XPathFunctionInfo {
 
       readonly MethodInfo _Method;
       readonly XPathModuleInfo _Module;

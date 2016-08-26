@@ -15,12 +15,12 @@
 using System;
 using System.Runtime.Serialization;
 using Saxon.Api;
-using System.Security;
 using myxsl.common;
 
-namespace myxsl.saxon {
+namespace myxsl.saxon
+{
 
-   [Serializable]
+    [Serializable]
    public sealed class SaxonException : ProcessorException {
 
       public SaxonException() 

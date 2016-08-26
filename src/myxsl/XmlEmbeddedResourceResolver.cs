@@ -13,19 +13,17 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Net;
 using System.Reflection;
-using System.IO;
 using System.Collections.Specialized;
-using System.Web;
 using System.Globalization;
 
-namespace myxsl {
-   
-   public class XmlEmbeddedResourceResolver : XmlResolver {
+namespace myxsl
+{
+
+    public class XmlEmbeddedResourceResolver : XmlResolver {
       
       public static readonly string UriSchemeClires = "clires";
 

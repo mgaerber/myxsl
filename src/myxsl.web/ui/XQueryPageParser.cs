@@ -12,17 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Web.Configuration;
-using System.Web.UI;
 using System.IO;
 using myxsl.common;
 
-namespace myxsl.web.ui {
-   
-   public class XQueryPageParser : BasePageParser {
+namespace myxsl.web.ui
+{
+
+    public class XQueryPageParser : BasePageParser {
 
       public string ProcessorName { get; set; }
 

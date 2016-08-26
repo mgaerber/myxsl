@@ -46,15 +46,12 @@
 // POSSIBILITY OF SUCH DAMAGE.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml.XPath;
 
-namespace myxsl.xml.xsl {
-   
-   sealed class EmptyXPathNodeIterator : XPathNodeIterator {
+namespace myxsl.xml.xsl
+{
+
+    sealed class EmptyXPathNodeIterator : XPathNodeIterator {
       
       public override XPathNodeIterator Clone() {
          return this;

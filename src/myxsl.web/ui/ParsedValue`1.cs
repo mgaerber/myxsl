@@ -12,14 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace myxsl.web.ui {
-   
-   public class ParsedValue<T> {
+namespace myxsl.web.ui
+{
+
+    public class ParsedValue<T> {
 
       public T Value { get; private set; }
       public string FileName { get; private set; }

@@ -17,16 +17,16 @@ using System.CodeDom;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Globalization;
-using System.Text;
 using System.Web;
 using System.Web.Configuration;
 using System.Xml;
 using System.Xml.XPath;
 using myxsl.web.ui;
 
-namespace myxsl.web.compilation {
-   
-   public sealed class SessionExpressionBuilder : BindingExpressionBuilder {
+namespace myxsl.web.compilation
+{
+
+    public sealed class SessionExpressionBuilder : BindingExpressionBuilder {
 
       internal const string Namespace = SessionModule.Namespace;
 

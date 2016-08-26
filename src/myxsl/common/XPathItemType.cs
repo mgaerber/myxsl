@@ -14,14 +14,14 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 
-namespace myxsl.common {
-   
-   public sealed class XPathItemType {
+namespace myxsl.common
+{
+
+    public sealed class XPathItemType {
 
       readonly Type _ClrType;
 

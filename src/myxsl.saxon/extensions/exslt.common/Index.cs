@@ -12,16 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using myxsl.common;
 using Saxon.Api;
 
-namespace myxsl.saxon.extensions.exslt.common {
-   
-   static class Index {
+namespace myxsl.saxon.extensions.exslt.common
+{
+
+    static class Index {
 
       public const string Namespace = "http://exslt.org/common";
 

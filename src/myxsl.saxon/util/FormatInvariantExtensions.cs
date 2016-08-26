@@ -13,14 +13,13 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Globalization;
 
-namespace myxsl.saxon {
-   
-   static class FormatInvariantExtensions {
+namespace myxsl.saxon
+{
+
+    static class FormatInvariantExtensions {
 
       public static string FormatInvariant(this string value, params object[] args) {
          return String.Format(CultureInfo.InvariantCulture, value, args);

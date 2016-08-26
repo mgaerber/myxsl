@@ -15,20 +15,19 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 using System.Xml.XPath;
 using myxsl.common;
 
-namespace myxsl.xquery {
+namespace myxsl.xquery
+{
 
-   /// <summary>
-   /// Provides functions for compiling and executing XQuery modules.
-   /// </summary>
-   [XPathModule("xquery", Namespace)]
+    /// <summary>
+    /// Provides functions for compiling and executing XQuery modules.
+    /// </summary>
+    [XPathModule("xquery", Namespace)]
    public class XQueryModule {
 
       const string Namespace = XPathModuleAttribute.BuiltInModulesBaseNamespace + "xquery";

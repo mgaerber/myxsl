@@ -15,7 +15,6 @@
 using System;
 using System.CodeDom;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.Linq;
 using System.Web;
 using System.Web.Configuration;
@@ -25,9 +24,10 @@ using System.Xml;
 using myxsl.web.ui;
 using System.Xml.XPath;
 
-namespace myxsl.web.compilation {
+namespace myxsl.web.compilation
+{
 
-   public abstract class BasePageCodeDomTreeGenerator : BaseCodeDomTreeGenerator {
+    public abstract class BasePageCodeDomTreeGenerator : BaseCodeDomTreeGenerator {
 
       readonly BasePageParser parser;
 

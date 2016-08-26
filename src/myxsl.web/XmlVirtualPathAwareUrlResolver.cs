@@ -13,16 +13,14 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Xml;
 using System.Web.Hosting;
-using System.Text.RegularExpressions;
 using System.Web;
 
-namespace myxsl.web {
-   
-   public class XmlVirtualPathAwareUrlResolver : XmlUrlResolver {
+namespace myxsl.web
+{
+
+    public class XmlVirtualPathAwareUrlResolver : XmlUrlResolver {
 
       static readonly Uri applicationBaseUri = (HostingEnvironment.IsHosted) ? 
          new Uri(HostingEnvironment.ApplicationPhysicalPath, UriKind.Absolute)

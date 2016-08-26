@@ -13,19 +13,18 @@
 // limitations under the License.
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml;
-using System.Xml.Schema;
 using System.Xml.XPath;
 using myxsl.common;
 using Saxon.Api;
 
-namespace myxsl.saxon {
+namespace myxsl.saxon
+{
 
-   public sealed class SaxonItemFactory : XPathItemFactory {
+    public sealed class SaxonItemFactory : XPathItemFactory {
 
       internal readonly Processor processor;
       readonly DocumentBuilder defaultDocBuilder;

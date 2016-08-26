@@ -14,7 +14,6 @@
 
 using System;
 using System.CodeDom;
-using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -24,9 +23,10 @@ using System.Xml.XPath;
 using myxsl.common;
 using myxsl.web.ui;
 
-namespace myxsl.web.compilation {
-   
-   public class XsltPageCodeDomTreeGenerator : BasePageCodeDomTreeGenerator {
+namespace myxsl.web.compilation
+{
+
+    public class XsltPageCodeDomTreeGenerator : BasePageCodeDomTreeGenerator {
 
       readonly XsltPageParser parser;
       CodeMemberField executableField;

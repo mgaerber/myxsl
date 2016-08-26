@@ -15,12 +15,12 @@
 using System;
 using System.Runtime.Serialization;
 using System.Xml.Xsl;
-using System.Security;
 using myxsl.common;
 
-namespace myxsl.xml.xsl {
+namespace myxsl.xml.xsl
+{
 
-   [Serializable]
+    [Serializable]
    public sealed class SystemXsltException : ProcessorException {
 
       public SystemXsltException() 

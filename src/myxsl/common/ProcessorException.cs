@@ -13,15 +13,14 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Runtime.Serialization;
 using System.Xml;
 using System.Security;
 
-namespace myxsl.common {
+namespace myxsl.common
+{
 
-   [Serializable]
+    [Serializable]
    public abstract class ProcessorException : Exception {
 
       public Uri ModuleUri { get; protected set; }

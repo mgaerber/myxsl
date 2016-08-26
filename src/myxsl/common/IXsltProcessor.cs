@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.IO;
 using System.Xml;
 using System.Xml.XPath;
 
-namespace myxsl.common {
-   
-   public interface IXsltProcessor {
+namespace myxsl.common
+{
+
+    public interface IXsltProcessor {
 
       XPathItemFactory ItemFactory { get; }
 

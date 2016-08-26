@@ -13,17 +13,15 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Net;
 using System.Collections.Specialized;
 using System.Xml;
-using System.Xml.XPath;
 using System.Xml.Serialization;
 
-namespace myxsl.net.http {
-   
-   [XmlRootPrefixed("response", Namespace = XPathHttpClient.Namespace, Prefix = XPathHttpClient.Prefix)]
+namespace myxsl.net.http
+{
+
+    [XmlRootPrefixed("response", Namespace = XPathHttpClient.Namespace, Prefix = XPathHttpClient.Prefix)]
    sealed class XPathHttpResponse : IXmlSerializable {
 
       // required

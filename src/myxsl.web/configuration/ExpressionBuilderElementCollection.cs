@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.Configuration;
 
-namespace myxsl.web.configuration {
+namespace myxsl.web.configuration
+{
 
-   sealed class ExpressionBuilderElementCollection : ConfigurationElementCollection {
+    sealed class ExpressionBuilderElementCollection : ConfigurationElementCollection {
 
       protected override ConfigurationElement CreateNewElement() {
          return new ExpressionBuilderElement();

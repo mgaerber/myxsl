@@ -14,14 +14,14 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 using System.IO;
 
-namespace myxsl.net.http {
-   
-   sealed class XPathHttpMultipart {
+namespace myxsl.net.http
+{
+
+    sealed class XPathHttpMultipart {
 
       // required
       public string MediaType { get; set; }

@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.IO;
 using System.Web.Compilation;
 using myxsl.common;
 using myxsl.web.ui;
 
-namespace myxsl.web.compilation {
-   
-   public class XQueryPageBuildProvider : BasePageBuildProvider {
+namespace myxsl.web.compilation
+{
+
+    public class XQueryPageBuildProvider : BasePageBuildProvider {
 
       public override void GenerateCode(AssemblyBuilder assemblyBuilder) {
          

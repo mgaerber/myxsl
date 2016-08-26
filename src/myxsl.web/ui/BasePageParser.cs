@@ -16,12 +16,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Configuration;
-using System.Web.UI;
 using myxsl.web.configuration;
 
-namespace myxsl.web.ui {
-   
-   public abstract class BasePageParser : BaseParser {
+namespace myxsl.web.ui
+{
+
+    public abstract class BasePageParser : BaseParser {
 
       PagesElement config;
 

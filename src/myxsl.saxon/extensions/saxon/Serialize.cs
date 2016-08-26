@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.IO;
 using System.Linq;
 using myxsl.common;
 using Saxon.Api;
 
-namespace myxsl.saxon.extensions.saxon {
+namespace myxsl.saxon.extensions.saxon
+{
 
-   sealed class Serialize : ExtensionFunctionDefinition {
+    sealed class Serialize : ExtensionFunctionDefinition {
 
       readonly QName _FunctionName = new QName(Index.Namespace, "serialize");
 

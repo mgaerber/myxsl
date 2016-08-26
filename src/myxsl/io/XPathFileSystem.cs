@@ -15,14 +15,13 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Xml;
-using myxsl.common;
 
-namespace myxsl.io {
-   
-   [XPathModule(Prefix, Namespace)]
+namespace myxsl.io
+{
+
+    [XPathModule(Prefix, Namespace)]
    public class XPathFileSystem {
 
       internal const string Namespace = "http://expath.org/ns/file";

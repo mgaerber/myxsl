@@ -12,15 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Text;
-using System.IO;
 
-namespace myxsl.net.http {
-   
-   sealed class XPathHttpMultipartItem {
+namespace myxsl.net.http
+{
+
+    sealed class XPathHttpMultipartItem {
 
       // required
       public XPathHttpBody Body { get; set; }

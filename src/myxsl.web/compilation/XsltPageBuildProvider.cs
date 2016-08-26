@@ -12,19 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Reflection;
-using System.Text;
 using System.Web.Compilation;
-using System.Xml;
 using myxsl.common;
 using myxsl.web.ui;
 
-namespace myxsl.web.compilation {
-   
-   public class XsltPageBuildProvider : BasePageBuildProvider {
+namespace myxsl.web.compilation
+{
+
+    public class XsltPageBuildProvider : BasePageBuildProvider {
 
       public override void GenerateCode(AssemblyBuilder assemblyBuilder) {
          

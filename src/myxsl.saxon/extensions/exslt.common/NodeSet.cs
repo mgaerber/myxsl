@@ -12,14 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Saxon.Api;
 
-namespace myxsl.saxon.extensions.exslt.common {
-   
-   sealed class NodeSet : ExtensionFunctionDefinition {
+namespace myxsl.saxon.extensions.exslt.common
+{
+
+    sealed class NodeSet : ExtensionFunctionDefinition {
 
       readonly QName _FunctionName = new QName(Index.Namespace, "node-set");
       

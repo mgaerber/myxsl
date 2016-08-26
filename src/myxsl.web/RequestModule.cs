@@ -31,17 +31,12 @@
 #endregion
 
 using System;
-using System.ComponentModel;
-using System.IO;
-using System.Text;
 using System.Web;
-using System.Xml;
-using System.Xml.Schema;
-using System.Xml.XPath;
 
-namespace myxsl.web {
+namespace myxsl.web
+{
 
-   [XPathModule(Prefix, Namespace, Predeclare = true)]
+    [XPathModule(Prefix, Namespace, Predeclare = true)]
    public static class RequestModule {
 
       internal const string Prefix = "request";

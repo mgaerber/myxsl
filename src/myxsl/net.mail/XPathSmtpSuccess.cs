@@ -13,15 +13,13 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml.Serialization;
 using System.Xml;
 
-namespace myxsl.net.mail {
+namespace myxsl.net.mail
+{
 
-   [XmlRootPrefixed("success", Namespace = XPathSmtpClient.Namespace, Prefix = XPathSmtpClient.Prefix)]
+    [XmlRootPrefixed("success", Namespace = XPathSmtpClient.Namespace, Prefix = XPathSmtpClient.Prefix)]
    sealed class XPathSmtpSuccess : IXmlSerializable {
 
       public System.Xml.Schema.XmlSchema GetSchema() {

@@ -50,12 +50,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.IO;
-using System.Linq;
 using System.Text;
 
-namespace myxsl {
+namespace myxsl
+{
 
-   static class QueryStringUtil {
+    static class QueryStringUtil {
 
       public static NameValueCollection ParseQueryString(string query) {
          return ParseQueryString(query, Encoding.UTF8);

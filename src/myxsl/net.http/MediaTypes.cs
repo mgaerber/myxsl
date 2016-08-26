@@ -13,13 +13,11 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
 
-namespace myxsl.net.http {
-   
-   static class MediaTypes {
+namespace myxsl.net.http
+{
+
+    static class MediaTypes {
 
       public const string Html = "text/html";
       public const string XHtml = "application/xhtml+xml";

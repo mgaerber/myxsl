@@ -12,13 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace myxsl.web {
+namespace myxsl.web
+{
 
-   static class WellKnownNamespaces {
+    static class WellKnownNamespaces {
       public const string XSLT = "http://www.w3.org/1999/XSL/Transform";
    }
 }

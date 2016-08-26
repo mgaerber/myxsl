@@ -12,17 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Principal;
-using System.Text;
 using System.Threading;
-using System.Web;
 
-namespace myxsl.security {
+namespace myxsl.security
+{
 
-   [XPathModule("security", XPathModuleAttribute.BuiltInModulesBaseNamespace + "security")]
+    [XPathModule("security", XPathModuleAttribute.BuiltInModulesBaseNamespace + "security")]
    public static class SecurityModule {
 
       static IPrincipal CurrentPrincipal {

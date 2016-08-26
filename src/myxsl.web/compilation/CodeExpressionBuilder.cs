@@ -12,15 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.CodeDom;
 
-namespace myxsl.web.compilation {
-   
-   public sealed class CodeExpressionBuilder : BindingExpressionBuilder {
+namespace myxsl.web.compilation
+{
+
+    public sealed class CodeExpressionBuilder : BindingExpressionBuilder {
 
       internal const string Namespace = XPathModuleAttribute.BuiltInModulesBaseNamespace + "code";
 

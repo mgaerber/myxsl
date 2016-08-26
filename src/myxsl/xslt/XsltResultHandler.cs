@@ -13,18 +13,16 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.IO;
 using System.Xml.Serialization;
 using myxsl.common;
 using System.Xml.XPath;
 
-namespace myxsl.xslt {
-   
-   public class XsltResultHandler {
+namespace myxsl.xslt
+{
+
+    public class XsltResultHandler {
 
       readonly XsltExecutable executable;
       readonly XsltRuntimeOptions options;

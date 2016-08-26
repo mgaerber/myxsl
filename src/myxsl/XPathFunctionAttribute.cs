@@ -13,14 +13,12 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Collections.ObjectModel;
 
-namespace myxsl {
+namespace myxsl
+{
 
-   [AttributeUsage(AttributeTargets.Method)]
+    [AttributeUsage(AttributeTargets.Method)]
    public sealed class XPathFunctionAttribute : Attribute {
 
       public string Name { get; private set; }

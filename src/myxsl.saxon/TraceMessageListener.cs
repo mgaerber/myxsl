@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.Diagnostics;
 using Saxon.Api;
 
-namespace myxsl.saxon {
-   
-   sealed class TraceMessageListener : IMessageListener {
+namespace myxsl.saxon
+{
+
+    sealed class TraceMessageListener : IMessageListener {
 
       public void Message(XdmNode content, bool terminate, IXmlLocation location) {
 

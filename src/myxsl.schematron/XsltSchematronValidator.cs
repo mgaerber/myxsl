@@ -13,15 +13,14 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Xml;
 using System.Xml.XPath;
 using myxsl.common;
 
-namespace myxsl.schematron {
+namespace myxsl.schematron
+{
 
-   class XsltSchematronValidator : SchematronValidator {
+    class XsltSchematronValidator : SchematronValidator {
 
       readonly XsltExecutable executable;
 

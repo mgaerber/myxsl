@@ -13,15 +13,13 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml.XPath;
 using System.Net.Mail;
 
-namespace myxsl.net.mail {
-   
-   sealed class XPathMailAddress {
+namespace myxsl.net.mail
+{
+
+    sealed class XPathMailAddress {
 
       public string Address { get; set; }
       public string DisplayName { get; set; }

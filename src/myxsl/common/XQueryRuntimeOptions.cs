@@ -12,15 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Xml;
-using System.Xml.XPath;
 
-namespace myxsl.common {
+namespace myxsl.common
+{
 
-   public class XQueryRuntimeOptions {
+    public class XQueryRuntimeOptions {
 
       readonly IDictionary<XmlQualifiedName, object> _ExternalVariables = new Dictionary<XmlQualifiedName, object>();
       XmlResolver _InputXmlResolver;

@@ -15,12 +15,12 @@
 using System;
 using System.CodeDom;
 using System.Globalization;
-using System.Linq;
 using myxsl.web.configuration;
 
-namespace myxsl.web.compilation {
-   
-   public abstract class BindingExpressionBuilder {
+namespace myxsl.web.compilation
+{
+
+    public abstract class BindingExpressionBuilder {
 
       public static BindingExpressionInfo ParseExpr(string expression, BindingExpressionContext context) {
 

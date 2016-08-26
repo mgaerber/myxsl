@@ -12,16 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Text;
 using System.Web.Compilation;
 using myxsl.web.ui;
 
-namespace myxsl.web.compilation {
+namespace myxsl.web.compilation
+{
 
-   [BuildProviderAppliesTo(BuildProviderAppliesTo.Web)]
+    [BuildProviderAppliesTo(BuildProviderAppliesTo.Web)]
    public abstract class BasePageBuildProvider : BaseBuildProvider {
 
       ICollection _VirtualPathDependencies;

@@ -19,12 +19,14 @@ using Saxon.Api;
 using net.sf.saxon.@event;
 using net.sf.saxon.om;
 using net.sf.saxon.type;
+using net.sf.saxon.expr.parser;
 
 namespace myxsl.saxon {
 
    class XdmWriter : XmlWriter {
 
-      readonly Builder builder;
+        readonly Location l = ExplicitLocation.UNKNOWN_LOCATION;
+        readonly Builder builder;
 
       NodeName attrName;
       string attrValue;
@@ -97,7 +99,7 @@ namespace myxsl.saxon {
       public override void WriteChars(char[] buffer, int index, int count) {
 
          try {
-            this.builder.characters(new string(buffer, index, count), 0, 0);
+            this.builder.characters(new string(buffer, index, count), l, 0);
          } catch {
 
             this.currentState = WriteState.Error;
@@ -108,7 +110,7 @@ namespace myxsl.saxon {
       public override void WriteComment(string text) {
 
          try {
-            this.builder.comment(text, 0, 0);
+            this.builder.comment(text, l, 0);
          } catch {
 
             this.currentState = WriteState.Error;
@@ -133,7 +135,7 @@ namespace myxsl.saxon {
                if (prefixOrLocal == "xmlns") {
                   this.builder.@namespace(new NamespaceBinding(prefixIsEmpty ? "" : localName, this.attrValue), 0);
                } else {
-                  this.builder.attribute(this.attrName, AnySimpleType.getInstance(), this.attrValue, 0, 0);
+                  this.builder.attribute(this.attrName, AnySimpleType.getInstance(), this.attrValue, l, 0);
                }
 
                this.attrName = null;
@@ -196,7 +198,7 @@ namespace myxsl.saxon {
       public override void WriteProcessingInstruction(string name, string text) {
 
          try {
-            this.builder.processingInstruction(name, text, 0, 0);
+            this.builder.processingInstruction(name, text, l, 0);
          } catch {
 
             this.currentState = WriteState.Error;
@@ -223,7 +225,7 @@ namespace myxsl.saxon {
       public override void WriteStartElement(string prefix, string localName, string ns) {
 
          try {
-            this.builder.startElement(CreateNodeName(prefix, localName, ns), Untyped.getInstance(), 0, 0);
+            this.builder.startElement(CreateNodeName(prefix, localName, ns), Untyped.getInstance(), l, 0);
          } catch {
 
             this.currentState = WriteState.Error;
@@ -240,7 +242,7 @@ namespace myxsl.saxon {
                return;
             }
 
-            this.builder.characters(text, 0, 0);
+            this.builder.characters(text, l, 0);
 
          } catch {
 

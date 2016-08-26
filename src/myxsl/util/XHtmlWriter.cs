@@ -46,14 +46,13 @@
 // POSSIBILITY OF SUCH DAMAGE.
 #endregion
 
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Xml;
 
-namespace myxsl {
+namespace myxsl
+{
 
-   class XHtmlWriter : XmlWrappingWriter {
+    class XHtmlWriter : XmlWrappingWriter {
       
       readonly Stack<XmlQualifiedName> elementStack;
 

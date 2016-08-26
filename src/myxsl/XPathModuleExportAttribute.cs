@@ -13,12 +13,10 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace myxsl {
-   
-   [AttributeUsage(AttributeTargets.Assembly)]
+namespace myxsl
+{
+
+    [AttributeUsage(AttributeTargets.Assembly)]
    public sealed class XPathModuleExportAttribute : Attribute { }
 }

@@ -13,17 +13,15 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Reflection;
 using System.Xml.Serialization;
-using System.Xml.XPath;
 
-namespace myxsl.common {
+namespace myxsl.common
+{
 
-   [XmlRootPrefixed("serialization-parameters", Namespace = W3CSerializationNamespace, Prefix = W3CSerializationPrefix)]
+    [XmlRootPrefixed("serialization-parameters", Namespace = W3CSerializationNamespace, Prefix = W3CSerializationPrefix)]
    public class XPathSerializationOptions : IXmlSerializable {
 
       const string W3CSerializationNamespace = "http://www.w3.org/2010/xslt-xquery-serialization";

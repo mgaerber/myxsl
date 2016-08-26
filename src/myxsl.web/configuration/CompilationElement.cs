@@ -12,15 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Configuration;
 
-namespace myxsl.web.configuration {
-   
-   sealed class CompilationElement : ConfigurationElement {
+namespace myxsl.web.configuration
+{
+
+    sealed class CompilationElement : ConfigurationElement {
 
       static readonly ConfigurationPropertyCollection _Properties;
       static readonly ConfigurationProperty _ExpressionBuildersProperty;

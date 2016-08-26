@@ -13,10 +13,8 @@
 // limitations under the License.
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Web;
 using System.Web.Configuration;
 using System.Web.Hosting;
@@ -26,9 +24,10 @@ using System.Xml.XPath;
 using myxsl.common;
 using myxsl.web.compilation;
 
-namespace myxsl.web.ui {
-   
-   public class XsltPageParser : BasePageParser {
+namespace myxsl.web.ui
+{
+
+    public class XsltPageParser : BasePageParser {
 
       string _XsltVirtualPath;
       Uri _XsltPhysicalUri;

@@ -18,13 +18,13 @@ using System.IO;
 using System.Web;
 using System.Web.Mvc;
 using System.Xml;
-using System.Xml.XPath;
 using myxsl.common;
 using myxsl.web.ui;
 
-namespace myxsl.web.mvc {
-   
-   public class XQueryView : BuildManagerCompiledView {
+namespace myxsl.web.mvc
+{
+
+    public class XQueryView : BuildManagerCompiledView {
 
       public XQueryView(ControllerContext controllerContext, string viewPath) 
          : base(controllerContext, viewPath) { }

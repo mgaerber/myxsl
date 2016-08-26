@@ -13,16 +13,14 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Net.Mail;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace myxsl.net.mail {
+namespace myxsl.net.mail
+{
 
-   [XmlRootPrefixed("error", Namespace = XPathSmtpClient.Namespace, Prefix = XPathSmtpClient.Prefix)]
+    [XmlRootPrefixed("error", Namespace = XPathSmtpClient.Namespace, Prefix = XPathSmtpClient.Prefix)]
    sealed class XPathSmtpError : IXmlSerializable {
 
       public SmtpStatusCode Status { get; set; }

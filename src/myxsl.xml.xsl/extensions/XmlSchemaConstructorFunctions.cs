@@ -13,16 +13,14 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 
-namespace myxsl.xml.xsl.extensions {
-   
-   public class XmlSchemaConstructorFunctions {
+namespace myxsl.xml.xsl.extensions
+{
+
+    public class XmlSchemaConstructorFunctions {
 
       internal const string Namespace = "http://www.w3.org/2001/XMLSchema";
       internal const string DateFormat = "yyyy-MM-ddzzzzzz";

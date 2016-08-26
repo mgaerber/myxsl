@@ -13,16 +13,14 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Configuration;
 using myxsl.web.compilation;
 using myxsl.common;
 
-namespace myxsl.web.configuration {
+namespace myxsl.web.configuration
+{
 
-   sealed class ExpressionBuilderElement : ConfigurationElement {
+    sealed class ExpressionBuilderElement : ConfigurationElement {
       
       static readonly ConfigurationPropertyCollection _Properties;
       static readonly ConfigurationProperty _NamespaceProperty;

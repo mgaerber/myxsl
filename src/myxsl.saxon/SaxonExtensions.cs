@@ -17,16 +17,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.Schema;
-using System.Xml.Serialization;
 using System.Xml.XPath;
 using Saxon.Api;
 
-namespace myxsl.saxon {
+namespace myxsl.saxon
+{
 
-   [CLSCompliant(false)]
+    [CLSCompliant(false)]
    public static class SaxonExtensions {
 
       #region XPathItem

@@ -13,12 +13,11 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace myxsl.xml.xsl {
-   
-   static class CLR {
+namespace myxsl.xml.xsl
+{
+
+    static class CLR {
 
       public static readonly bool IsMono = Type.GetType("Mono.Runtime") != null;
    }

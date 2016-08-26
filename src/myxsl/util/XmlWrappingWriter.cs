@@ -47,13 +47,12 @@
 #endregion
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Xml;
 
-namespace myxsl {
+namespace myxsl
+{
 
-   abstract class XmlWrappingWriter : XmlWriter {
+    abstract class XmlWrappingWriter : XmlWriter {
       
       readonly XmlWriter baseWriter;
 

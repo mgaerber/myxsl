@@ -12,18 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 using myxsl.common;
 
-namespace myxsl.schematron {
-   
-   public class SchematronResultHandler {
+namespace myxsl.schematron
+{
+
+    public class SchematronResultHandler {
 
       readonly SchematronValidator validator;
       readonly SchematronRuntimeOptions options;

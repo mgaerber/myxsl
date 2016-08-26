@@ -14,15 +14,14 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 using myxsl.common;
 
-namespace myxsl.schematron {
+namespace myxsl.schematron
+{
 
-   [XPathModule("schematron", XPathModuleAttribute.BuiltInModulesBaseNamespace + "schematron", "svrl", SchematronInvoker.SvrlNamespace)]
+    [XPathModule("schematron", XPathModuleAttribute.BuiltInModulesBaseNamespace + "schematron", "svrl", SchematronInvoker.SvrlNamespace)]
    public class SchematronModule {
 
       [XPathDependency]

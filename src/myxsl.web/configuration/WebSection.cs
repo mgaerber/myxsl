@@ -12,17 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Text;
 using System.Web.Configuration;
 using myxsl.web.compilation;
 
-namespace myxsl.web.configuration {
-   
-   sealed class WebSection : ConfigurationSection {
+namespace myxsl.web.configuration
+{
+
+    sealed class WebSection : ConfigurationSection {
 
       internal static readonly string SectionName = "myxsl.web";
 

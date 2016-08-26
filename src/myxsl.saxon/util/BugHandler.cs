@@ -14,15 +14,13 @@
 
 using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using Saxon.Api;
 
-namespace myxsl.saxon {
+namespace myxsl.saxon
+{
 
-   class BugHandler {
+    class BugHandler {
       
       static readonly Version CurrentVersion = typeof(Saxon.Api.Processor).Assembly.GetName().Version;
       static readonly ConcurrentDictionary<int, Version> BugMaxVersions = new ConcurrentDictionary<int, Version>();

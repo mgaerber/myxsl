@@ -13,19 +13,16 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using myxsl.web.ui;
 using System.CodeDom;
 using System.IO;
-using System.Xml;
 using System.Web.Hosting;
-using System.Web;
 using myxsl.common;
 
-namespace myxsl.web.compilation {
-   
-   public class XQueryPageCodeDomTreeGenerator : BasePageCodeDomTreeGenerator {
+namespace myxsl.web.compilation
+{
+
+    public class XQueryPageCodeDomTreeGenerator : BasePageCodeDomTreeGenerator {
 
       XQueryPageParser parser;
       Type _PageBaseClass;

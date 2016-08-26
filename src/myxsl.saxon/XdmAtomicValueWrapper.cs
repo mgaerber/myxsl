@@ -13,16 +13,15 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 using System.Xml.Schema;
 using Saxon.Api;
 
-namespace myxsl.saxon {
-   
-   sealed class XdmAtomicValueWrapper : XPathItem  {
+namespace myxsl.saxon
+{
+
+    sealed class XdmAtomicValueWrapper : XPathItem  {
 
       readonly XdmAtomicValue atomicValue;
 

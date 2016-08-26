@@ -12,17 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.XPath;
 using myxsl.common;
 
-namespace myxsl.schematron {
-   
-   public class SchematronRuntimeOptions {
+namespace myxsl.schematron
+{
+
+    public class SchematronRuntimeOptions {
 
       readonly IDictionary<XmlQualifiedName, object> _Parameters = new Dictionary<XmlQualifiedName, object>();
       XmlResolver _InputXmlResolver;

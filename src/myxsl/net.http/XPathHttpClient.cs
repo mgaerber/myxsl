@@ -17,15 +17,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Reflection;
-using System.Web;
 using System.Xml;
 using System.Xml.XPath;
 using myxsl.common;
 
-namespace myxsl.net.http {
+namespace myxsl.net.http
+{
 
-   [XPathModule(Prefix, Namespace)]
+    [XPathModule(Prefix, Namespace)]
    public sealed class XPathHttpClient {
       
       internal const string Namespace = "http://expath.org/ns/http-client";

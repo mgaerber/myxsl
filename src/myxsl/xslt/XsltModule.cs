@@ -15,20 +15,19 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 using System.Xml.XPath;
 using myxsl.common;
 
-namespace myxsl.xslt {
+namespace myxsl.xslt
+{
 
-   /// <summary>
-   /// Provides functions for compiling and executing XSLT stylesheets.
-   /// </summary>
-   [XPathModule("xslt", Namespace)]
+    /// <summary>
+    /// Provides functions for compiling and executing XSLT stylesheets.
+    /// </summary>
+    [XPathModule("xslt", Namespace)]
    public class XsltModule {
 
       const string Namespace = XPathModuleAttribute.BuiltInModulesBaseNamespace + "xslt";

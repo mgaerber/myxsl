@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <?page processor="saxon" ?>
-<?output-cache duration="10" vary-by-param="none" ?>
+<?output-cache duration="10" vary-by-param="none" vary-by-header="none" no-store="true"?>
 
 <xsl:stylesheet version="2.0"
    xmlns="http://www.w3.org/1999/xhtml"

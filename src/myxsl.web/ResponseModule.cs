@@ -12,15 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Web;
 
-namespace myxsl.web {
+namespace myxsl.web
+{
 
-   [XPathModule("response", XPathModuleAttribute.BuiltInModulesBaseNamespace + "web/response", Predeclare = true)]
+    [XPathModule("response", XPathModuleAttribute.BuiltInModulesBaseNamespace + "web/response", Predeclare = true)]
    public static class ResponseModule {
       
       static HttpContext Context {

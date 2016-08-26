@@ -18,11 +18,11 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 
-namespace myxsl.common {
-   
-   [DebuggerDisplay("{Namespace}")]
+namespace myxsl.common
+{
+
+    [DebuggerDisplay("{Namespace}")]
    public sealed class XPathModuleInfo {
 
       readonly Type _Type;

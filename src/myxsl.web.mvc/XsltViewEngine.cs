@@ -12,14 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Web.Mvc;
 
-namespace myxsl.web.mvc {
+namespace myxsl.web.mvc
+{
 
-   public class XsltViewEngine : BuildManagerViewEngine {
+    public class XsltViewEngine : BuildManagerViewEngine {
 
       public XsltViewEngine() {
          

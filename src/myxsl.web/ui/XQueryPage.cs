@@ -12,16 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Web;
-using System.Xml;
 using myxsl.common;
 
-namespace myxsl.web.ui {
+namespace myxsl.web.ui
+{
 
-   public abstract class XQueryPage : BasePage {
+    public abstract class XQueryPage : BasePage {
 
       public abstract XQueryExecutable Executable { get; }
 

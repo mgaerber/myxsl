@@ -13,13 +13,11 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace myxsl.xml.xsl {
-   
-   static class StringExtensions {
+namespace myxsl.xml.xsl
+{
+
+    static class StringExtensions {
 
       public static bool HasValue(this string s) {
          return !String.IsNullOrEmpty(s);

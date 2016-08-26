@@ -23,14 +23,14 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Xml;
-using System.Xml.XPath;
 using Microsoft.CSharp;
 using myxsl.common;
 using Saxon.Api;
 
-namespace myxsl.saxon {
-   
-   class IntegratedExtensionFunctionGenerator {
+namespace myxsl.saxon
+{
+
+    class IntegratedExtensionFunctionGenerator {
 
       const string XMLSchemaNamespace = "http://www.w3.org/2001/XMLSchema";
 

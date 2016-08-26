@@ -13,13 +13,11 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace myxsl.xml.xsl.extensions {
+namespace myxsl.xml.xsl.extensions
+{
 
-   public class XPathMathFunctions {
+    public class XPathMathFunctions {
 
       internal const string Namespace = "http://www.w3.org/2005/xpath-functions/math";
 

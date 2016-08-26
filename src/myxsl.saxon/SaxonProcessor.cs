@@ -14,7 +14,6 @@
 
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -28,9 +27,10 @@ using SaxonApiXsltExecutable = Saxon.Api.XsltExecutable;
 using SaxonApiXQueryExecutable = Saxon.Api.XQueryExecutable;
 using System.Globalization;
 
-namespace myxsl.saxon {
+namespace myxsl.saxon
+{
 
-   public sealed class SaxonProcessor : IXsltProcessor, IXQueryProcessor {
+    public sealed class SaxonProcessor : IXsltProcessor, IXQueryProcessor {
 
       readonly Processor processor;
       readonly SaxonItemFactory _ItemFactory;

@@ -12,15 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.CodeDom;
 using System.Diagnostics;
 
-namespace myxsl.web.compilation {
-   
-   public abstract class BaseCodeDomTreeGenerator {
+namespace myxsl.web.compilation
+{
+
+    public abstract class BaseCodeDomTreeGenerator {
       
       public string GeneratedTypeName { get; set; }
       public string GeneratedTypeNamespace { get; set; }

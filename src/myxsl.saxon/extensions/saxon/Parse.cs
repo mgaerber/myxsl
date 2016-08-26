@@ -13,17 +13,16 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Xml;
 using myxsl.common;
 using Saxon.Api;
 
-namespace myxsl.saxon.extensions.saxon {
-   
-   sealed class Parse : ExtensionFunctionDefinition {
+namespace myxsl.saxon.extensions.saxon
+{
+
+    sealed class Parse : ExtensionFunctionDefinition {
 
       readonly QName _FunctionName = new QName(Index.Namespace, "parse");
 

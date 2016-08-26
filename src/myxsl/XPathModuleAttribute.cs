@@ -13,14 +13,12 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
 
-namespace myxsl {
-   
-   [AttributeUsage(AttributeTargets.Class)]
+namespace myxsl
+{
+
+    [AttributeUsage(AttributeTargets.Class)]
    public sealed class XPathModuleAttribute : Attribute {
 
       [EditorBrowsable(EditorBrowsableState.Never)]

@@ -13,14 +13,13 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Saxon.Api;
 
-namespace myxsl.saxon.extensions.exslt.common {
-   
-   class ObjectType : ExtensionFunctionDefinition {
+namespace myxsl.saxon.extensions.exslt.common
+{
+
+    class ObjectType : ExtensionFunctionDefinition {
 
       readonly QName _FunctionName = new QName(Index.Namespace, "object-type");
 

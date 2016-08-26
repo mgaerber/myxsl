@@ -14,14 +14,14 @@
 
 using System;
 using System.Net.Mail;
-using System.Web;
 using System.Xml.XPath;
 using myxsl.common;
 using System.Xml.Serialization;
 
-namespace myxsl.net.mail {
+namespace myxsl.net.mail
+{
 
-   [XPathModule(Prefix, Namespace)]
+    [XPathModule(Prefix, Namespace)]
    public sealed class XPathSmtpClient {
 
       internal const string Namespace = XPathModuleAttribute.BuiltInModulesBaseNamespace + "net/mail";

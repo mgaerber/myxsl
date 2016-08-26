@@ -13,14 +13,12 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml;
 
-namespace myxsl.common {
-   
-   public class XmlParsingOptions {
+namespace myxsl.common
+{
+
+    public class XmlParsingOptions {
 
       XmlResolver _XmlResolver;
 

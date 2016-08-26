@@ -13,17 +13,15 @@
 // limitations under the License.
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Xml.XPath;
 using System.Xml;
 using System.IO;
 using myxsl.common;
 
-namespace myxsl.net.mail {
-   
-   sealed class XPathMailBody {
+namespace myxsl.net.mail
+{
+
+    sealed class XPathMailBody {
 
       XmlQualifiedName _Method;
 

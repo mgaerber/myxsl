@@ -15,12 +15,9 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Web;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
@@ -28,9 +25,10 @@ using System.Xml.XPath;
 using System.Xml.Xsl;
 using myxsl.common;
 
-namespace myxsl.xml.xsl.extensions {
+namespace myxsl.xml.xsl.extensions
+{
 
-   public class XPathFunctions {
+    public class XPathFunctions {
 
       internal const string Namespace = "http://www.w3.org/2005/xpath-functions";
 
